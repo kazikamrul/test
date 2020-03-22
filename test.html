@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test project</title>
+	<style type="text/css">
+		body{background-color: powderblue}
+		ul{
+			list-style-type: none;
+			position: fixed;
+			margin: 0;
+			padding: 0;
+			width: 20%;
+			height: 100%;
+			overflow: hidden;
+			background-color: #333333
+		}
+		li{float:inline;
+		border-bottom: 1px solid white;}
+		li a{display: block;
+			color: white;
+			text-align: center;
+			padding: 16px;
+			text-decoration: none;
+		}
+		li a:hover{
+			background-color: #999999
+		}
+		.dbl{
+			background-color: blue;
+			height: 1000;
+			width: 30%;
+			float:right;
+			
+		}
+		.from1{
+			border: 5px;
+			color: red;
+			border-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a>home</a></li>
+		<li><a>About us</a></li>
+		<li><a>contruct us</a></li>
+	</ul>
+	<div class="dbl">
+		<p>hello worlds!</p>
+	</div>
+
+	<div class="from1">
+		<form>
+			User Name : <input type="text" name="user_name" ><br><br>
+			Password : <input type="Password" name="Pass"><br><br>
+			<input type="submit" name="log_on" value="submit"><br><br>
+			Male:<input type="radio" name="gender" value="Male">
+			Female:<input type="radio" name="gender" value="Female">
+			<input type="checkbox" name="">
+			<select>
+				<option>hasan</option>
+				<option>tareq</option>
+				<option>sunny</option>
+			</select>
+			<button type="button" onclick="alert('hello worlds')">on click</button>
+			<input type="color" name="clr">
+			<input type="date" name="">
+			<input type="datetime-local" name="">
+			<input type="email" name="">
+			<input type="file" name="">
+			<input type="image" name="">
+			<input type="range" name="">
+			<input type="reset" name="">
+			<input type="search" name="">
+			<input type="tel" name="">
+			<input type="time" name="">
+			<input type="url" name="">
+			<input type="week" name="">
+			<input type="text" name="" value="gfgfgf" disabled="dfgdgd">
+		</form>
+		
+	</div>
+</body>
+</html>
